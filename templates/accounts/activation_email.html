@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Activate Your Account</title>
+  </head>
+  <body>
+    <h2>Hi {{ user.username }},</h2>
+    <p>Thank you for signing up with our bank. To activate your account, please click on the link below:</p>
+    <a href="{{ activation_url }}">{{ activation_url }}</a>
+    <p>If you did not create this account, please ignore this email.</p>
+    <p>Best regards,</p>
+    <p>The Bank Team</p>
+  </body>
+</html>
